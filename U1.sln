@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\CalculoIMC.csproj", "{2013D7C4-E93A-4272-97A3-B5BFA7BA7A9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMC", "IMC\IMC.csproj", "{9D55CBCE-0E6F-4793-A6B9-A96FC397B46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoEC", "CalculoEC\CalculoEC.csproj", "{B6489B48-0260-4389-8B74-9EC86F00DEBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergiaCinetica", "EnergiaCinetica\EnergiaCinetica.csproj", "{F367CA88-EA60-44A4-8C44-1A302325A08A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2013D7C4-E93A-4272-97A3-B5BFA7BA7A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2013D7C4-E93A-4272-97A3-B5BFA7BA7A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2013D7C4-E93A-4272-97A3-B5BFA7BA7A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2013D7C4-E93A-4272-97A3-B5BFA7BA7A9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6489B48-0260-4389-8B74-9EC86F00DEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6489B48-0260-4389-8B74-9EC86F00DEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6489B48-0260-4389-8B74-9EC86F00DEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6489B48-0260-4389-8B74-9EC86F00DEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D55CBCE-0E6F-4793-A6B9-A96FC397B46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D55CBCE-0E6F-4793-A6B9-A96FC397B46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D55CBCE-0E6F-4793-A6B9-A96FC397B46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D55CBCE-0E6F-4793-A6B9-A96FC397B46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F367CA88-EA60-44A4-8C44-1A302325A08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F367CA88-EA60-44A4-8C44-1A302325A08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F367CA88-EA60-44A4-8C44-1A302325A08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F367CA88-EA60-44A4-8C44-1A302325A08A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A99559C0-B546-4349-9B17-3F9F1F3FEF15}
+		SolutionGuid = {581190F7-310F-4466-BD22-F947285C49B4}
 	EndGlobalSection
 EndGlobal
