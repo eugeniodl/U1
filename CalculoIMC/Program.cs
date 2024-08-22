@@ -15,3 +15,20 @@ imc = peso / (altura * altura);
 
 // Mostrar el IMC calculado
 Console.WriteLine($"Su IMC es: {imc:F}");
+
+// Determinar el rango del IMC
+if(imc < 18.5)
+{
+    Console.WriteLine("Peso bajo.");
+}
+else if(imc >= 18.5 && imc <= 24.9)
+{
+    Console.WriteLine("Peso normal.");
+}
+else
+{
+    Console.WriteLine("Sobrepeso.");
+}
+
+Console.ReadLine();
+
