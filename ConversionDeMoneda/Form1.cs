@@ -13,18 +13,25 @@ namespace ConversionDeMoneda
 
         private void btnConvertir_Click(object sender, EventArgs e)
         {
-            // Leer la cantidad ingresada en NIO
-            double cantidadNIO = Convert.ToDouble(txtCantidadNIO.Text);
+            try
+            {
+                // Leer la cantidad ingresada en NIO
+                double cantidadNIO = Convert.ToDouble(txtCantidadNIO.Text);
 
-            // Convertir de NIO a USD
-            double cantidadUSD = cantidadNIO * NIO_TO_USD;
+                // Convertir de NIO a USD
+                double cantidadUSD = cantidadNIO * NIO_TO_USD;
 
-            // Convertir de USD a EUR
-            double cantidadEUR = cantidadUSD * USD_TO_EUR;
+                // Convertir de USD a EUR
+                double cantidadEUR = cantidadUSD * USD_TO_EUR;
 
-            // Mostrar los resultados en las etiquetas
-            lblResultadoUSD.Text = $"Equivalente en USD {cantidadUSD:F2}";
-            lblResultadoEUR.Text = $"Equivalente en EUR {cantidadEUR:F2}";
+                // Mostrar los resultados en los labels
+                lblResultadoUSD.Text = $"Equivalente en USD: {cantidadUSD:F2}";
+                lblResultadoEUR.Text = $"Equivalente en EUR: {cantidadEUR:F2}";
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor, ingrese un número válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
