@@ -39,25 +39,27 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 42);
+            label1.Location = new Point(14, 56);
             label1.Name = "label1";
-            label1.Size = new Size(156, 25);
+            label1.Size = new Size(197, 32);
             label1.TabIndex = 0;
             label1.Text = "Cantidad en NIO:";
             // 
             // txtCantidadNIO
             // 
-            txtCantidadNIO.Location = new Point(188, 44);
+            txtCantidadNIO.Location = new Point(215, 59);
+            txtCantidadNIO.Margin = new Padding(3, 4, 3, 4);
             txtCantidadNIO.Name = "txtCantidadNIO";
-            txtCantidadNIO.Size = new Size(198, 23);
+            txtCantidadNIO.Size = new Size(226, 27);
             txtCantidadNIO.TabIndex = 1;
             // 
             // btnConvertir
             // 
             btnConvertir.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnConvertir.Location = new Point(422, 40);
+            btnConvertir.Location = new Point(482, 53);
+            btnConvertir.Margin = new Padding(3, 4, 3, 4);
             btnConvertir.Name = "btnConvertir";
-            btnConvertir.Size = new Size(94, 30);
+            btnConvertir.Size = new Size(107, 40);
             btnConvertir.TabIndex = 2;
             btnConvertir.Text = "Convertir";
             btnConvertir.UseVisualStyleBackColor = true;
@@ -66,31 +68,32 @@
             // lblResultadoUSD
             // 
             lblResultadoUSD.AutoSize = true;
-            lblResultadoUSD.Location = new Point(23, 93);
+            lblResultadoUSD.Location = new Point(26, 124);
             lblResultadoUSD.Name = "lblResultadoUSD";
-            lblResultadoUSD.Size = new Size(38, 15);
+            lblResultadoUSD.Size = new Size(142, 20);
             lblResultadoUSD.TabIndex = 3;
-            lblResultadoUSD.Text = "label2";
+            lblResultadoUSD.Text = "Equivalente en USD:";
             // 
             // lblResultadoEUR
             // 
             lblResultadoEUR.AutoSize = true;
-            lblResultadoEUR.Location = new Point(339, 93);
+            lblResultadoEUR.Location = new Point(387, 124);
             lblResultadoEUR.Name = "lblResultadoEUR";
-            lblResultadoEUR.Size = new Size(38, 15);
+            lblResultadoEUR.Size = new Size(140, 20);
             lblResultadoEUR.TabIndex = 4;
-            lblResultadoEUR.Text = "label3";
+            lblResultadoEUR.Text = "Equivalente en EUR:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(551, 162);
+            ClientSize = new Size(630, 216);
             Controls.Add(lblResultadoEUR);
             Controls.Add(lblResultadoUSD);
             Controls.Add(btnConvertir);
             Controls.Add(txtCantidadNIO);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Conversión de moneda";
             ResumeLayout(false);
